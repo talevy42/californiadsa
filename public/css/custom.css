@@ -1,0 +1,32 @@
+body {
+	padding-top: 50px;
+	color: #959595;
+	}
+	
+h1, h2, h3, h4, h5, h6 {
+	color: rgb(35, 31, 32);
+	}
+	
+.feature {
+	background-color: rgb(236, 31, 39);
+	color: rgb(35, 31, 32);
+	}
+	
+.article-intro {
+    margin-bottom: 25px;
+}
+
+.footer-blurb {
+    padding: 30px 0;
+    background-color: rgb(251, 210, 212);
+	color: rgb(35, 31, 32);
+}
+    
+.footer-blurb-item {
+    padding: 30px;
+    }
+ 
+.small-print {
+    background-color: rgb(251, 210, 212);
+	padding: 30px 0;
+}
