@@ -81,20 +81,28 @@
 			border: 1px solid #ffffff;
 		}
 
-		.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+		.navbar-inverse .navbar-toggle:hover {
 			text-decoration: underline;
-			background-color: rgba(255, 255, 255, 0.2);
+			background-color: transparent;
 			transition: 0.5s;
 		}
 
 		.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:active {
-			text-decoration: underline;
 			background-color: transparent;
 			transition: 0.5s;
 		}
 
 		.navbar-inverse .navbar-collapse {
 			border-style: none;
+		}
+
+		.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+			background-color: rgba(255, 255, 255, 0.2);
+			border-radius: 3px;
+		}
+
+		nav .container {
+			margin-top: 0;
 		}
 
 		/* hamburger menu links */
@@ -104,14 +112,22 @@
 			}
 
 			.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
-				text-decoration: underline;
-				background-color: rgba(255, 255, 255, 0.2);
+				background-color: transparent;
 				transition: 0.5s;
 				border-radius: 3px;
 			}
 
 			.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
 				text-decoration: underline;
+			}
+
+			.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+				background-color: rgba(255, 255, 255, 0.2);
+				border-radius: 3px;
+			}
+
+			.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+				color: #fff;
 			}
 
 		/* jumbotron feature */
